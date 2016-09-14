@@ -1,0 +1,40 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+
+// Font families
+
+$font-family-text    :  'Lato', sans-serif !default;
+$font-family-heading : 'Montserrat', sans-serif !default;
+
+// Font weights
+
+$font-light   : 300 !default;
+$font-regular : 400 !default;
+$font-bold    : 600 !default;
+
+// Sizes
+
+$font-size-small     : 12px !default;
+$font-size-regular   : 14px !default;
+$font-size-large     : 24px !default;
+$font-size-x-large   : 32px !default;
+$font-size-xx-large  : 48px !default;
+$font-size-xxx-large : 64px !default;
+$font-size-xxxx-large: 96px !default;
+
+// Color & Background
+
+$brand-color      : rgb(41, 133, 216) !default;
+$brand-bg         : #fff !default;
+$text-color       : rgb(34, 34, 34) !default;
+$link-color       : rgb(255, 255, 255) !default;
+$link-color-hover : rgb(255, 255, 255) !default;
+
+
+// max width
+$max-width: 1210px !default;
+
+// base url
+$base-url: '../' !default;

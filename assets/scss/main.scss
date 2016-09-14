@@ -1,0 +1,78 @@
+/**
+ * Description: Sass Template.
+ * Version: 1.0.0
+ * Last update: 2016/06/16
+ * Author: Nguyen Xuan Hoa <nguyenxuanhoa1594@gmail.com>
+ * Author URI: https://github.com/hoanguyenxuan
+ *
+ * Summary:
+ *
+ *    1. VENDOR
+ *        - 1.1. Normalize
+ *        - 1.2. Slick
+ *        - 1.3. Select2
+ *        - 1.4. Datetimepicker
+ *
+ *    2. BASE STUFF
+ *        - 2.1. Fonts
+ *        - 2.2. Base
+ *        - 2.3. Typography
+ *        - 2.4. Helpers
+ *
+ *    3. LAYOUT RELATED SECTIONS
+ *        - 3.1. Header
+ *        - 3.2. Footer
+ *
+ *    4. COMPONENTS
+ *        - 4.1. Navigation
+ *
+ *    5. PAGE SPECIFIC STYLES
+ *        - 5.1. Home
+ *
+ *    6. THEMES
+ *        - 6.1. Default
+ *
+ */
+
+
+@import
+  'abstracts/variables',
+  'abstracts/functions',
+  'abstracts/mixins';
+
+/* ==========================================================================
+   1: Vendors
+   ========================================================================== */
+@import
+  'vendor/normalize',
+  'vendor/slick',
+  'vendor/select2',
+  'vendor/datetimepicker';
+
+/* ==========================================================================
+   2: Base stuff
+   ========================================================================== */
+@import
+  'base/base',
+  'base/typography',
+  'base/helpers';
+
+/* ==========================================================================
+   3: Layout-related sections
+   ========================================================================== */
+@import
+  'layout/header',
+  'layout/footer';
+
+/* ==========================================================================
+   4: Components
+   ========================================================================== */
+@import
+  'components/navigation';
+
+/* ==========================================================================
+   5: Page specific styles
+   ========================================================================== */
+@import
+  'pages/home';
+

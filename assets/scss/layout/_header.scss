@@ -1,0 +1,106 @@
+/* --------------------------------------------------------------------------
+   Header
+   -------------------------------------------------------------------------- */
+
+.xh-top-header {
+  background: #e6e6e6;
+  @include mobile-small(){
+    display:none;
+  }
+  @include tablet-large{
+    display:block;
+  }
+}
+
+.xh-top-header p {
+  font-size: 12px;
+  margin: 10px 0;
+}
+
+.xh-top-header p strong {
+  font-size: 16px;
+}
+
+.xh-top-header .f-right {
+  letter-spacing: -0.3em;
+}
+
+.xh-top-header a {
+  display: inline-block;
+  color: #434343;
+  vertical-align: middle;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: .3px;
+}
+
+.xh-phone{
+  display:inline-block;
+  vertical-align:middle;
+  i {
+    margin-right: 10px;
+    font-size: 21px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+
+.xh-login {
+  padding: 12px 10px;
+
+  @include on-event {
+    background: $brand-color;
+    color: #fff;
+  }
+
+}
+
+.xh-register {
+  padding: 12px 20px;
+  margin-left: 10px;
+
+  @include on-event {
+    background: $brand-color;
+    color: #fff;
+  }
+
+}
+
+.xh-bottom-header {
+  padding: 26px 0 30px;
+  position:relative;
+}
+
+.xh-bottom-header .f-left {
+  @include mobile-small(){
+    width:60%;
+  }
+  @include tablet-large(){
+    width: 40%;
+  }
+
+}
+
+.xh-bottom-header .f-right {
+  width: 60%;
+}
+
+.xh-logo {
+  display: block;
+  margin-top: 4px;
+}
+
+.xh-bottom-header .f-right nav ul {
+  display: inline-block;
+}
+
+.xh-appointment {
+  display: inline-block;
+  padding: 12px 14px;
+  background: $brand-color;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+

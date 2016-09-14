@@ -1,0 +1,214 @@
+/* --------------------------------------------------------------------------
+   Footer
+   -------------------------------------------------------------------------- */
+
+.xh-third-heading{
+  font-size:20px;
+  text-transform:uppercase;
+  color:#fff;
+  margin-top:0;
+  margin-bottom:34px;
+}
+
+.xh-main-footer{
+  background:#0d1c26;
+  color:#fff;
+  border-top:3px solid $brand-color;
+   > .container{
+     padding-top:76px;
+    position: relative;
+    .xh-scroll-top{
+      position:absolute;
+      top:0;
+      right:0;
+      left:0;
+      margin:0 auto;
+      width:40px;
+      height:40px;
+      text-align:center;
+      padding-top:5px;
+      background:$brand-color;
+      font-size:20px;
+      cursor:pointer;
+      @include tablet-small(){
+        left:auto;
+        right:20px;
+      }
+      @include screen-custom(1170px){
+        left:auto;
+      }
+    }
+  }
+
+  .xh-col-footer{
+    width:100%;
+    padding-left:0;
+    padding-bottom:50px;
+    @include tablet-large(){
+      width:50%;
+      float:left;
+    }
+
+    @include screen-small(){
+      width:25%;
+      padding-bottom:0;
+    }
+
+  }
+
+}
+
+.xh-main-footer ul{
+  margin:0;
+  padding:0;
+
+  li{
+    list-style:none;
+    font-size:14px;
+
+    a:hover{
+      color:$brand-color;
+    }
+  }
+
+}
+.xh-footer-nav i, .list-contact i{
+  color:$brand-color;
+  margin-right:7px;
+}
+.xh-logo-footer{
+  display:block;
+  margin-top:4px;
+}
+
+.xh-intro-footer {
+    line-height: 24px;
+    margin-top: 28px;
+}
+
+.xh-sign {
+    margin-top: 15px;
+    margin-bottom:11px;
+}
+.xh-main-footer .xh-quick-link{
+  @include screen-small(){
+    padding-left:10px;
+  }
+}
+.xh-list-social li{
+  display:inline-block;
+  margin-right:15px;
+  a{
+    display:block;
+    width:25px;
+    height:25px;
+    text-align:center;
+    padding-top:3px;
+    background:#fff;
+    &:hover{
+      background:$brand-color;
+      i{
+        color:#fff;
+      }
+    }
+  }
+  i{
+    display:inline-block;
+    color:#333333;
+    margin-right:0;
+  }
+}
+
+.xh-footer-nav li{
+  margin-bottom: 19px;
+}
+
+.xh-main-footer  .xh-contact-us{
+
+  @include screen-custom(1170px){
+    padding-left:20px;
+  }
+
+  li{
+    margin-bottom:20px;
+    margin-bottom:25px;
+  }
+}
+.xh-main-footer .xh-working-hours{
+
+  @include screen-custom(1170px){
+    padding-left:30px;
+  }
+
+  .xh-list-working-hours .divider{
+    width: percent(50px,270px) - 7%;
+    @include screen-custom(1170px){
+      width: percent(50px,270px);
+    }
+    height:1px;
+    background:#3c4850;
+    display:inline-block;
+    vertical-align:middle;
+  }
+  .xh-list-working-hours .xh-day{
+    width:percent(80px,270px) + 3%;
+    @include screen-custom(1170px){
+      width:percent(80px,270px);
+    }
+    display:inline-block;
+    vertical-align:middle;
+  }
+
+  .xh-list-working-hours .xh-hours{
+    width:percent(140px,270px) + 4%;
+     @include screen-custom(1170px){
+      width:percent(140px,270px);
+    }
+    display:inline-block;
+    vertical-align:middle;
+    padding-left:24px;
+  }
+
+  li{
+    margin-bottom:13px;
+  }
+}
+
+.xh-bottom-footer{
+  background:#10222d;
+  color:#999;
+  padding-top: 10px;
+  padding-bottom: 7px;
+  @include screen-small(){
+     margin-top:60px;
+  }
+  .f-left{
+    width:100%;
+    font-size:14px;
+    text-align:left;
+    padding-top:10px;
+    padding-bottom:10px;
+    @include tablet-large(){
+      width:50%;
+      padding-top:0px;
+      padding-bottom:0px;
+    }
+  }
+
+  .f-right{
+    display:none;
+      @include tablet-large(){
+      width:50%;
+      display:block;
+    }
+
+    li{
+      display:inline-block;
+      margin-left:13px;
+      padding-bottom:4px;
+      a{
+        color:#999999;
+      }
+    }
+  }
+}

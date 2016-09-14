@@ -1,0 +1,41 @@
+/* --------------------------------------------------------------------------
+   Typography
+   -------------------------------------------------------------------------- */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+  font-family: $font-family-heading;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+
+  @include on-event {
+    text-decoration:none;
+  }
+}
+
+.xh-main-heading{
+  font-size:32px;
+  text-transform:uppercase;
+  .xh-brand{
+    color:$brand-color;
+  }
+  &:after{
+    content:'';
+    display:block;
+    width:44px;
+    height:2px;
+    background:$brand-color;
+    margin-top:20px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+}

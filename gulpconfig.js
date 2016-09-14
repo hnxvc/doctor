@@ -1,7 +1,7 @@
 'user strict';
 
 module.exports = function(){
-  var base = '../html/sass-doctor/';
+  var base = '';
 
   var config = {
     base : base,

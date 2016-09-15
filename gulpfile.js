@@ -54,7 +54,7 @@ gulp.task('scripts',function(){
           .pipe($.plumber({errorHandler: onError}))
           .pipe($.concat('plugins.js'))
           .pipe($.rename({suffix:'.min'}))
-          .pipe($.uglify())
+          // .pipe($.uglify())
           .pipe($.sourcemaps.write('./'))
           .pipe(gulp.dest(config.build_js_vendor))
           .pipe($.browserSync.stream());
@@ -102,4 +102,5 @@ gulp.task('serve',['default'],function(){
   gulp.watch(config.js_vendors,['scripts']);
   gulp.watch(config.base + 'assets/css/main.min.css').on('change',$.browserSync.reload);
   gulp.watch(config.base + 'assets/js/main.js',['compress-js',$.browserSync.reload]);
+  
 });

@@ -7,7 +7,6 @@ module.exports = function(){
     base : base,
     js_vendors  :  [
       base + 'vendors/jquery/jquery-1.12.4.min.js',
-      // base + 'vendors/*.js',
       base + 'vendors/**/*.js',
     ],
     build_js_vendor: './'+ base + '/assets/js/',
